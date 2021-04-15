@@ -197,7 +197,7 @@ export default function Home() {
       <div className="site">
         <div className="cardSite">
           <div className="imageSite">
-                <a href="https://projet2serinator.netlify.app/" target="_blank"><img src={site3} alt="imagesSite" className="imagesSite"/></a>
+                <a href="https://projet2serinator.netlify.app/" target="_blank" rel="noreferrer"><img src={site3} alt="imagesSite" className="imagesSite"/></a>
           </div>
           <div className="textSite">
                 <p className="prezSite">Sérinator : Application du choix de série</p>
@@ -210,7 +210,7 @@ export default function Home() {
       <div className="site">
           <div className="cardSite">
               <div className="imageSite">
-                  <a href="http://livres-enfants-ethiques.fr/" target="_blank"><img src={site2} alt="imagesSite" className="imagesSite"/></a>
+                  <a href="http://livres-enfants-ethiques.fr/" target="_blank" rel="noreferrer"><img src={site2} alt="imagesSite" className="imagesSite"/></a>
               </div>
               <div className="textSite">
                   <p className="prezSite">Livres éthiques pour enfants</p>
@@ -223,7 +223,7 @@ export default function Home() {
       <div className="site">
           <div className="cardSite">
               <div className="imageSite">
-                  <a href="http://partirauvert.fr/" target="_blank"><img src={site4} alt="imagesSite" className="imagesSite"/></a>
+                  <a href="http://partirauvert.fr/" target="_blank" rel="noreferrer"><img src={site4} alt="imagesSite" className="imagesSite"/></a>
               </div>
               <div className="textSite">
                   <p className="prezSite">Partir au vert : Séjours dans la nature</p>

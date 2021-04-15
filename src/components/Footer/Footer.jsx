@@ -12,7 +12,7 @@ function Footer() {
         {/* <div className="dividerFooter" /> */}
         <div className="divMilieu">
           <h2 className="titreFooter">Liens</h2>
-          <p className="paraphFooter2">09 81 60 71 37</p>
+          {/* <p className="paraphFooter2">09 81 60 71 37</p> */}
           <p className="paraphFooter2">torphi78@gmail.com</p>
           <div className="containerReseaux">
             <a

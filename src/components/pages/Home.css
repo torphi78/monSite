@@ -1,0 +1,412 @@
+/* *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+} */
+.presentation{
+    /* background: url("./fondsection.jpg") center; */
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    margin-bottom: 40px;
+}
+.titrePresentation{
+    padding-top: 60px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    color: green;
+    margin-bottom: 60px;
+}
+.portrait{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.containerPresentation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+.textDePresentation{    
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.maPresentation{
+    width: 100%;
+    background: linear-gradient(rgba(100,100,100,0.05), white);
+    font-family: 'Manrope', sans-serif;
+    font-weight: 200;
+    font-size: 18px;
+    color: black;
+    padding:40px 40px 40px 50px;
+    text-align: justify;
+    white-space: pre-wrap;
+    margin-top: 0px;
+}
+.lesAscenseurs{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+}
+.accordeons{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:0px 40px 50px 40px;
+}
+.leCarousel{
+    /* width:100%;
+    height: 600px; */
+    margin-bottom: 240px;
+}
+.containerDivider{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.divider{
+    border-bottom: 2px solid green;    
+    width: 70%;
+}
+.titrePresentation2{
+    padding-top: 60px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    color: green;
+}
+.sousTitrePresentation2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 200;
+    text-align: center;
+    color: green;
+    padding-bottom: 80px;
+}
+
+  .containerSlide{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;    
+    width: 100%;
+}
+  .gauche{
+      width:50%;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+      max-width: 780px;
+    margin: auto;
+        padding: 5px;
+  }
+  .droite{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:50%;
+    padding: 55px 100px 40px 15px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 200;
+    font-size: 18px;
+    color: black;
+    /* padding:0px 100px 40px 0px; */
+    text-align: justify;
+    white-space: pre-wrap;
+    margin-left: -50px;
+}
+.listeGraphiste{
+    padding-left: 5%;
+}
+.containerWeb {
+    width: 100%;
+    text-align: center;
+    display: grid;
+    
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 20%;
+    gap: 10px 10px;
+    grid-template-areas:
+      ". . . .";
+  }
+  .site{
+      height: 300px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;      
+  }
+  .cardSite{
+    background: linear-gradient(rgba(100,100,100,0.05), white);
+    width: 80%;  
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+}
+
+  .imagesSite{
+    width: 300px;        
+  }
+
+  .imagesSite:hover{
+    cursor: pointer;
+  transition: all 0.3s ease-out;
+  transform: scale(1.2);     
+}
+.textSite{
+    width: 80%;        
+}
+.prezSite{
+    font-family: 'Manrope', sans-serif;
+    font-weight: 200;
+    font-size: 16px;
+    margin: 0px 0px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+.moiAvatar{
+    width:300px;
+}
+
+.textDePresentation{    
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.maPresentation{
+    width: 100%;
+    font-size: 14px;
+    color: black;
+    padding:15px;
+    text-align: justify;
+    white-space: pre-wrap;
+}
+.lesAscenseurs{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+.accordeons{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:0px ;
+}
+
+.leCarousel{
+    /* width:100%;
+    height: 600px; */
+    margin-bottom: 240px;
+}
+.containerDivider{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.divider{
+    border-bottom: 2px solid green;    
+    width: 70%;
+}
+.titrePresentation2{
+    padding-top: 00px;
+    font-size: 20px;
+}
+.sousTitrePresentation2{
+    font-size: 15px;
+    text-align: center;
+    padding-bottom: 80px;
+}
+
+  .containerSlide{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;    
+    width: 100%;
+    margin-bottom: 20px;
+}
+  .gauche{
+      width:80%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      max-width: 700px;
+        margin: auto;
+    padding: 5px;
+  }
+  .droite{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:100%;
+    padding: 0px;
+    font-size: 14px;
+    text-align: justify;
+    margin-left: 0px;
+    margin-top: 150px;
+}
+.listeGraphiste{
+    padding-left: 10%;
+}
+.site{
+    height: 180px;
+      
+}
+    .imagesSite{
+        width: 150px;        
+    }    
+     
+    .textSite{
+        width: 100%;        
+    }
+    .prezSite{
+        font-weight: 200;
+        font-size: 10px;
+    }
+
+
+}
+
+@media screen and (max-width: 670px) {
+
+    .moiAvatar{
+        width:250px;
+    }
+
+.containerPresentation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.textDePresentation{    
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.maPresentation{
+    width: 100%;
+    background: linear-gradient(rgba(100,100,100,0.05), white);
+    font-family: 'Manrope', sans-serif;
+    font-weight: 200;
+    font-size: 12px;
+    color: black;
+    padding:10px;
+    text-align: justify;
+    white-space: pre-wrap;
+}
+.lesAscenseurs{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+.accordeons{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:0px;
+}
+.titrePresentation2{
+    padding-top: 00px;
+    font-size: 18px;
+}
+.sousTitrePresentation2{
+    font-size: 15px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+.leCarousel{
+    /* width:100%;
+    height: 600px; */
+    margin-bottom: 20px;
+}
+  .containerSlide{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+    width: 100%;
+    margin-bottom: 20px;
+}
+  .gauche{
+      width:100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      max-width: 600px;
+        margin: 0px;
+    padding: 0px;
+  }
+  .droite{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:100%;
+    padding: 20px;
+    font-size: 14px;
+    text-align: justify;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+.listeGraphiste{
+    padding-left: 10%;
+}
+
+
+
+
+
+
+    .containerWeb {
+        width: 100%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #F9E9C7;  
+    }
+    .site{
+        height: 250px;   
+    }
+    .cardSite{
+      background: linear-gradient(rgba(100,100,100,0.05), white);
+      width: 100%;  
+  }
+
+  
+
+  .imagesSite{
+    width: 300px;        
+  }
+  
+.textSite{
+    width: 95%;        
+}
+.prezSite{
+    font-size: 12px;
+}
+}

@@ -1,0 +1,50 @@
+.sectionHeaderConcept {
+  background: url("./fondcourbe.jpg") center;
+    background-size: cover;
+  height: 700px;
+  width: 100%;
+  
+}
+
+.lelogoDuHeader{
+  position: absolute;
+  width: 568px;
+  height:135px;
+  top: 300px;
+  left: 7%; 
+}
+
+
+
+
+@media screen and (min-width: 768px) and (max-width: 1020px) {
+  
+  .lelogoDuHeader{
+    position: absolute;
+    width: 568px;
+  height:135px;
+    top: 350px;
+    left: 7%; 
+  }
+  
+}
+@media screen and (max-width: 767px) {
+  
+  .lelogoDuHeader{
+    position: absolute;
+    width: 240px;
+  height:65px;
+    top: 250px;
+    left: 18%; 
+  }
+  .sectionHeaderConcept {
+    height: 400px;
+    width: 100%;
+    text-shadow: black 0.5px 0.5px 0.5px;
+  }
+  
+}
+
+
+
+

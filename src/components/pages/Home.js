@@ -77,7 +77,7 @@ export default function Home() {
             Je touche aussi à la Photo et durant mon parcours j'ai également été amené à faire du Montage Vidéo (Vegas Pro...)<br></br><br></br>
             Depuis Septembre 2021, j'ai articulé mes compétences dans le Web avec une formation en qualité de <b>Développeur Fullstack Web et Mobile</b>,
             où j'ai pût voir les langages et outils tels que :<br></br><br></br>
-            <i>Html, CSS , React JS, Node Js, Express JS, Github, Figma, ...</i><br></br>
+            <i>Html, CSS , React JS, Node Js, Express JS, SQL, Github, Figma, ...</i><br></br>
           </p>
           </div>
         <div className="lesAscenseurs">

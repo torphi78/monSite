@@ -36,7 +36,7 @@ function Accordion(props) {
         style={{ maxHeight: `${setHeight}` }}
         className="accordion__content"
       >
-        <a href={grandCv} target="_blank" rel="noreferrer" ><img src={ptiCv} alt="CV"/></a>
+        <a href={grandCv} target="_blank" rel="noreferrer" ><img src={ptiCv} className="ptitCv" alt="CV"/></a>
          
         
         <div

@@ -87,7 +87,7 @@ export default function Home() {
               
               content="
               <p>
-              Pour plus d'informations sur mon parcours professionnel ou mes skills...n'hésitez pas à télécharger mon CV.</p><br></br>
+              Pour plus d'informations sur mon parcours professionnel ou mes skills...n'hésitez pas à télécharger mon CV <i>(en cliquant dessus)</i>.</p><br></br>
               <p><b>1994:</b> BAC S</p>
               <p><b>2000:</b> BAC +2 : Graphiste Publicitaire et Artistique <i>(Photoshop, Illustrator, Xpress, Indesign...)</i></p>
               <p><b>2003:</b> Niv. BAC +2 : Formation Webdesigner</p>
@@ -101,7 +101,9 @@ export default function Home() {
               title="Skills"
               content="
               <p><b>Curieux :</b> De nature, j'aime apprendre de nouvelles technos et de manière générale découvrir des choses utiles.</p><br></br>
-              <p><b>Curieux :</b> J'aime découvrir de nouvelles technos.</p><br></br>
+              <p><b>Rigoureux :</b> J'ai de bonnes capacités d'organisation et d'analyse.</p><br></br>
+              <p><b>Créatif :</b> Je suis force de proposition et aime apporter une touche stylisée.</p><br></br>
+              
               
               "
             />

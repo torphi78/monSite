@@ -162,7 +162,7 @@ export default function Home() {
             les dépliants, les Menus restaurants (ou autres),<br></br><br></br>  
             </li>
             <li>
-            les flyers promotionnels (pour soirées, ouverture professionnelles, autres promos...),<br></br><br></br>  
+            les flyers promotionnels, affiches (pour soirées, ouvertures professionnelles, autres promos...),<br></br><br></br>  
             </li>
             <li>
             Pochettes CD artistes, E-Cards...<br></br> <br></br> 

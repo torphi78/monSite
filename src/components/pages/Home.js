@@ -102,7 +102,7 @@ export default function Home() {
               content="
               <p><b>Curieux :</b> De nature, j'aime apprendre de nouvelles technos et de manière générale découvrir des choses utiles.</p><br></br>
               <p><b>Rigoureux :</b> J'ai de bonnes capacités d'organisation et d'analyse.</p><br></br>
-              <p><b>Créatif :</b> Je suis force de proposition et aime apporter une touche stylisée.</p><br></br>
+              <p><b>Créatif :</b> Je suis force de proposition et aime apporter une touche stylisée et des nouvelles idées de Marketing.</p><br></br>
               
               
               "

@@ -190,12 +190,12 @@ export default function Home() {
     </div>
 
     <section className="leCarousel" id="elCarousel">
+      {/* <br></br>
       <br></br>
       <br></br>
       <br></br>
       <br></br>
-      <br></br>
-      <br></br>
+      <br></br> */}
       <div className="pictoPrint">
       <img src={print} className="print" alt="print"/>
       <h2 className="titrePresentation2">Mon Portfolio <i>(Print)</i></h2>

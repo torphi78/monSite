@@ -64,10 +64,6 @@ const ContactForm = () => {
         </p>
       </div>
       
-      
-      {/* <div className="introContact">
-        
-      </div> */}
       <div className="containerForm">
         <form className="Form" onSubmit={handleSubmit}>
           <div className="inputsName">

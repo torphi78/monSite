@@ -82,7 +82,7 @@ export default function Home() {
             En Septembre 2021, j'ai articulé mes compétences dans le Web avec une formation en qualité de <b>Développeur Fullstack Web et Mobile</b>,
             où j'ai pût voir les langages et outils tels que :<br></br>
             <i>Html, CSS , React JS, Node Js, Express JS, SQL, Github, Figma, ...</i><br></br><br></br>
-            Actuellement je suis un cursus de <b>Montage Vidéo</b> et <b>Motion Designer</b> sur <b>Adobe Premiere</b> et <b>After Effects</b>.
+            Actuellement je suis un cursus de <b>Montage Vidéo</b> et <b>Motion Designer</b> sur Adobe Premiere et After Effects.
           </p>
           </div>
         <div className="lesAscenseurs">

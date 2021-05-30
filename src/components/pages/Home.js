@@ -81,7 +81,7 @@ export default function Home() {
             Je touche aussi à la Photo et durant mon parcours j'ai également été amené à faire du Montage Vidéo (Vegas Pro...)<br></br><br></br>
             En Septembre 2021, j'ai articulé mes compétences dans le Web avec une formation en qualité de <b>Développeur Fullstack Web et Mobile</b>,
             où j'ai pût voir les langages et outils tels que :<br></br>
-            <i>Html, CSS , React JS, Node Js, Express JS, SQL, Github, Figma, ...</i><br></br>
+            <i>Html, CSS , React JS, Node Js, Express JS, SQL, Github, Figma, ...</i><br></br><br></br>
             Actuellement je suis un cursus de <b>Montage Vidéo</b> et <b>Motion Designer</b> sur <b>Adobe Premiere</b> et <b>After Effects</b>.
           </p>
           </div>
@@ -93,15 +93,66 @@ export default function Home() {
               content="
               <p>
               Pour plus d'informations sur mon parcours professionnel ou mes skills...n'hésitez pas à télécharger mon CV <i>(en cliquant dessus)</i>.</p><br></br>
-              <p><b>1994:</b> BAC S</p>
+              <p><b>1997:</b> BAC S</p>
               <p><b>2000:</b> BAC +2 : Graphiste Publicitaire et Artistique <i>(Photoshop, Illustrator, Xpress, Indesign...)</i></p>
               <p><b>2003:</b> Niv. BAC +2 : Formation Webdesigner</p>
-              <p><b>2020:</b> BAC +2 : Développeur Web et Mobile <i>(Html, Css, JS, ReactJS, NodeJS, ExpressJS, Figma, Github...)</i></p><br></br>
+              <p><b>2020:</b> BAC +2 : Développeur Web et Mobile <i>(Html, Css, JS, ReactJS, NodeJS, ExpressJS, Figma, Github...)</i></p>
+              <p><b>2021:</b> Niv. BAC +2 : Motion Designer et Monteur Vidéo <i>(Adobe Premiere et After Effects...)</i></p><br></br>
               <p><b>langues :</b> anglais, Espagnol, Portugais</i></p><br></br>
               "
                          
             />
-            
+            <Accordion
+              title="Expériences Pros"
+              content="
+              <p>JANVIER 2021 - AVRIL 2021</p>
+              <p><b>DEVELOPPEUR WEB UX/UI</b></p>
+              <p>Société : Partir au vert</p>
+              <p>(Stage 3 mois) Projet Fullstack 'from Scratch' sous React JS,
+              Node JS, Express JS, MySQL, FIGMA, GITHUB...
+              Nous avons élaboré tout le site pour une création d'entreprise
+              basée sur la réservation de séjours dans la nature.</p><br></br>
+              
+              <p>2011 - 2020</p>
+              <p><b>GRAPHISTE MULTIMÉDIA (PRINT & WEB)</b></p>
+              <p>Société : JCB Siganlisations</p>
+              <p>Au sein d'une entreprise de signalisation, J'ai participé durant
+              de nombreuses années à la création de la communication
+              interne et externe pour des clients divers (Photoshop,
+              Illustrator étaient mes outils)<p><br></br>
+
+              <p>2006 - 2011</p>
+              <p><b>GRAPHISTE DESIGNER CRÉATIF MULTIMÉDIA & WEBDESIGNER</b></p>
+              <p>Société : 707COM</p>
+              <p>Au sein d'une agence de communication, j'ai participé à la
+              création de tous types de produits pour la communication et ai
+              apporté des idées de charte graphique et d'idées de
+              marketing: (logo, carte de visite, plaquettes pros., flyers
+              promotionnels, affiches, pochettes CD, menus restaurants,
+              enseignes, marquage vitrine, marquage véhicules,....) et
+              également pour le web (site inernet, bannières, emailings...)</p>
+              <p>Expérience très enrichissante en polyvalence.<p><br></br>
+
+              <p>2004 - 2006</p>
+              <p><b>GRAPHISTE MULTIMÉDIA</b></p>
+              <p>Société : ILL EVENTS MUSIC</p>
+              <p>Au sein d'un label indépendant de musiques urbaines
+              (Yvelines)</p>
+              <p>j'élaborais plusieurs tâches liées à la
+              communication: (Pochettes d'artistes, affiches promos, pages
+              promos pour magazines spécialisés, pochettes et livrets CD et
+              vinysl...) Aussi j'alimentais le site du label des nouveautés et
+              actus...</p><br></br>
+
+              <p>2001 - 2004</p>
+              <p><b>GRAPHISTE -WEBMASTER - WEBDESIGNER - REDACTEUR WEB</b></p>
+              <p>Société : ADIQ</p>
+              <p>Salarié d'une association parisienne, j'alimentais le contenu
+              d'un site déjà en place sur les cultures urbaines (macite.net) :
+              tant bien graphiquement, que d'un point de vue rédactionnel.</p>
+              <p>Mes débuts du Web</p><br></br>    
+              "
+            />
             <Accordion
               title="Skills"
               content="
@@ -141,12 +192,17 @@ export default function Home() {
     <section className="leCarousel" id="elCarousel">
       <br></br>
       <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
       <div className="pictoPrint">
       <img src={print} className="print" alt="print"/>
+      <h2 className="titrePresentation2">Mon Portfolio <i>(Print)</i></h2>
+    <h3 className="sousTitrePresentation2">Quelques exemples de mon travail</h3>
       </div>
 
-    <h2 className="titrePresentation2">Mon Portfolio <i>(Print)</i></h2>
-    <h3 className="sousTitrePresentation2">Quelques exemples de mon travail</h3>
+    
      <div className="containerSlide">
           <div className="gauche">
           <Slideshow
@@ -186,13 +242,18 @@ export default function Home() {
       <div className="divider"></div>
     </div>
     <section className="portFolioWeb" id="webPortfolio">
-    <br></br>
-    <br></br>
+    {/* <br></br> */}
+      {/* <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br> */}
     <div className="pictoWeb">
       <img src={webby} className="web" alt="web"/>
-      </div>
-    <h2 className="titrePresentation2">Mon Portfolio (Web)</h2>
+      <h2 className="titrePresentation2">Mon Portfolio (Web)</h2>
     <h3 className="sousTitrePresentation2">Quelques exemples de mon travail</h3>
+      </div>
+    
     <div className="containerWeb">
 
       <div className="site">
@@ -249,8 +310,9 @@ export default function Home() {
 
     </div>
     </section>
-     
+     <section id="contactPartie">
     < ContactForm />
+    </section>
 
     <section id="footerPartie">      
       <Footer/>

@@ -56,16 +56,18 @@ const ContactForm = () => {
     <div className="sectionContact">
        <div className="pictoLettre">
       <img src={lettre} className="lettre" alt="lettre"/>
-      </div>
-      
       <h1 className="titrePage">Contact</h1>
-      <div className="introContact">
-        <br />
+      <br />
         <p className="paragrapheContact">
           Si vous avez une question ou voulez me contacter, sentez-vous libre de
           m'envoyer un message.
         </p>
       </div>
+      
+      
+      {/* <div className="introContact">
+        
+      </div> */}
       <div className="containerForm">
         <form className="Form" onSubmit={handleSubmit}>
           <div className="inputsName">

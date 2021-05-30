@@ -77,17 +77,20 @@
 }
 .divider{
     border-bottom: 2px solid green;    
-    width: 70%;
+    width: 20%;
 }
 
 .pictoPrint{    
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
-    margin-bottom: 10px;
+    padding-top: 90px;
+    margin-bottom: 40px;
 }
 .print{
     width: 150px;
+    margin-bottom: 10px;
 }
 
 .titrePresentation2{
@@ -154,12 +157,15 @@
   }
   .pictoWeb{    
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
-    margin-bottom: 10px;
+    padding-top: 90px;
+    margin-bottom: 40px;
 }
 .web{
     width: 150px;
+    margin-bottom: 10px;
 }
   .site{
       height: 300px;
@@ -358,7 +364,9 @@
     align-items: center;
     padding:0px;
 }
-
+.divider{
+    display: none;
+}
 .print{
     width: 80px;
 }
@@ -415,7 +423,7 @@
 
 
 .portFolioWeb {    
-    background-color: #F9E9C7;  
+    background-color: #ffc790;  
 }
 .containerWeb {
         width: 100%;
@@ -423,11 +431,11 @@
         display: flex;
         flex-direction: column;
         align-items: center;      
-    }
+}
 
-    .web{
-        width: 80px;
-    }
+.web{
+     width: 80px;
+}
     .site{
         height: 250px;   
     }

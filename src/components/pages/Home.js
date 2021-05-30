@@ -77,9 +77,10 @@ export default function Home() {
             Je touche aux logiciels de retouche d'images et vectoriels tels que : Photoshop, Illustrator, InDesign...<br></br>
             Je disais Web par le biais du WebDesign avec Dreamweaver, WordPress...et participé à la rédaction d'articles en qualité de Webmaster.<br></br>
             Je touche aussi à la Photo et durant mon parcours j'ai également été amené à faire du Montage Vidéo (Vegas Pro...)<br></br><br></br>
-            Depuis Septembre 2021, j'ai articulé mes compétences dans le Web avec une formation en qualité de <b>Développeur Fullstack Web et Mobile</b>,
+            En Septembre 2021, j'ai articulé mes compétences dans le Web avec une formation en qualité de <b>Développeur Fullstack Web et Mobile</b>,
             où j'ai pût voir les langages et outils tels que :<br></br><br></br>
             <i>Html, CSS , React JS, Node Js, Express JS, SQL, Github, Figma, ...</i><br></br>
+            Actuellement je suis un cursus de <b>Montage Vidéo</b> et <b>Motion Designer</b>  sur <b>Adobe Premiere</b>et <b>After Effects</b>.
           </p>
           </div>
         <div className="lesAscenseurs">

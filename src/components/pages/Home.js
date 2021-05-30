@@ -12,6 +12,7 @@ import site4 from "../ecransWeb/partirauvert.jpg";
 import ContactForm from "../ContactForm/ContactForm";
 import Footer from "../Footer/Footer";
 import moi from "./Avatar.png";
+import print from "./pictos/print.png";
 
 import img1 from "../Carousel/1.jpg";
 import img2 from "../Carousel/2.jpg";
@@ -64,6 +65,7 @@ export default function Home() {
     <section id="presentation" className="presentation">
       <br></br>
       <br></br>
+        
       <h2 className="titrePresentation">Qui suis-je ?</h2>
       <div className="portrait">
         <img src={moi} className="moiAvatar" alt="moi"/>
@@ -136,6 +138,10 @@ export default function Home() {
     <section className="leCarousel" id="elCarousel">
       <br></br>
       <br></br>
+      <div className="pictoPrint">
+      <img src={print} className="print" alt="print"/>
+      </div>
+
     <h2 className="titrePresentation2">Mon Portfolio <i>(Print)</i></h2>
     <h3 className="sousTitrePresentation2">Quelques exemples de mon travail</h3>
      <div className="containerSlide">

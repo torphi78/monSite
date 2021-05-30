@@ -25,6 +25,7 @@
     justify-content: center;
     margin-bottom: 30px;
 }
+
 .containerPresentation{
     display: flex;
     flex-direction: row;
@@ -78,6 +79,14 @@
     border-bottom: 2px solid green;    
     width: 70%;
 }
+
+.print{    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
 .titrePresentation2{
     padding-top: 60px;
     font-family: 'Roboto', sans-serif;
@@ -223,6 +232,10 @@
     border-bottom: 2px solid green;    
     width: 70%;
 }
+.print{
+    width: 80px;
+}
+
 .titrePresentation2{
     padding-top: 00px;
     font-size: 20px;
@@ -329,6 +342,11 @@
     align-items: center;
     padding:0px;
 }
+
+.print{
+    width: 80px;
+}
+
 .titrePresentation2{
     padding-top: 00px;
     font-size: 18px;

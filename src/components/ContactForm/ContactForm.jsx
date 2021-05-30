@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./ContactForm.css";
 import emailjs from "emailjs-com";
+import lettre from "../pictos/courrier.png";
 
 
 const ContactForm = () => {
@@ -53,6 +54,9 @@ const ContactForm = () => {
 
   return (
     <div className="sectionContact">
+       <div className="pictoLettre">
+      <img src={lettre} className="lettre" alt="lettre"/>
+      </div>
       
       <h1 className="titrePage">Contact</h1>
       <div className="introContact">

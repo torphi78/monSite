@@ -9,7 +9,15 @@
     width: 100%;
     padding-top: 70px;
   }  
-  
+  .pictoLettre{    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.lettre{
+    width: 150px;
+}
   .titrePage {
     text-align: center;
     font-family: "Roboto", cursive;
@@ -113,6 +121,11 @@ margin:20px auto;
     transform: scale(1.1);
   }
   @media screen and (min-width: 768px) and (max-width: 1024px) {
+
+    .lettre{
+      width: 120px;
+  }
+
     .titrePage {
       text-align: center;
       color: white;
@@ -184,6 +197,9 @@ margin:20px auto;
   
     }
   @media screen and (max-width: 670px) {
+    .lettre{
+      width: 80px;
+  }
       .titrePage {
       text-align: center;
       color: white;

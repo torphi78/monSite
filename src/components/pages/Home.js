@@ -12,7 +12,9 @@ import site4 from "../ecransWeb/partirauvert.jpg";
 import ContactForm from "../ContactForm/ContactForm";
 import Footer from "../Footer/Footer";
 import moi from "./Avatar.png";
-import print from "./pictos/print.png";
+import print from "../pictos/print.png";
+import webby from "../pictos/globe.png";
+
 
 import img1 from "../Carousel/1.jpg";
 import img2 from "../Carousel/2.jpg";
@@ -186,6 +188,9 @@ export default function Home() {
     <section className="portFolioWeb" id="webPortfolio">
     <br></br>
     <br></br>
+    <div className="pictoWeb">
+      <img src={webby} className="web" alt="web"/>
+      </div>
     <h2 className="titrePresentation2">Mon Portfolio (Web)</h2>
     <h3 className="sousTitrePresentation2">Quelques exemples de mon travail</h3>
     <div className="containerWeb">
@@ -244,14 +249,10 @@ export default function Home() {
 
     </div>
     </section>
-    <br></br>
-    <section id="contactPartie">
-      <br></br>
-      <br></br>
+     
     < ContactForm />
-    </section>
-    <section id="footerPartie">
-      
+
+    <section id="footerPartie">      
       <Footer/>
     </section>
     

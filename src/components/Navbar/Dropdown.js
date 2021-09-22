@@ -1,11 +1,15 @@
 import React, { useState } from 'react';
 import './Dropdown.css';
 import { HashLink } from 'react-router-hash-link';
+import PropTypes from "prop-types";
 
-function Dropdown() {
-  const [click, setClick] = useState(false);
+function Dropdown({ setClick }) {
+  const [clicked, setClicked] = useState(false);
 
-  const handleClick = () => setClick(!click);
+  const handleClick = () => {
+    setClicked(false);
+    setClick(false);
+  };
 
   const MenuItems = [
     {
@@ -24,7 +28,7 @@ function Dropdown() {
     <>
       <ul
         onClick={handleClick}
-        className={click ? 'dropdown-menu clicked' : 'dropdown-menu'}
+        className={clicked ? 'dropdown-menu clicked' : 'dropdown-menu'}
       >
         {MenuItems.map((item, index) => {
           return (
@@ -43,5 +47,10 @@ function Dropdown() {
     </>
   );
 }
+
+Dropdown.propTypes = {
+  setClick: PropTypes.func.isRequired,
+};
+
 
 export default Dropdown;

@@ -28,6 +28,10 @@ function Navbar() {
     }
   };
 
+  const openModal = () => {
+    setDropdown(!dropdown);
+  };
+
   return (
     <>
       <nav className='navbar'>
@@ -48,7 +52,7 @@ function Navbar() {
               Présentation
             </HashLink>
           </li>
-          <li
+          {/* <li
             className='nav-item'
             onMouseEnter={onMouseEnter}
             onMouseLeave={onMouseLeave}
@@ -61,7 +65,17 @@ function Navbar() {
               Portfolios 
             </Link>
             {dropdown && <Dropdown />}
-          </li>
+          </li> */}
+          <button
+              className="nav-itemBtn"
+              type="button"
+              onMouseEnter={onMouseEnter}
+              onMouseLeave={onMouseLeave}
+              onClick={openModal}
+            >
+              <p className="nav-links">Portfolios</p>
+              {dropdown && <Dropdown setClick={setClick} />}
+            </button>
           
           <li className='nav-item'>
             <HashLink smooth to='/#contactPartie' className='nav-links2' onClick={closeMobileMenu}>

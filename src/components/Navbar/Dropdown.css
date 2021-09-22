@@ -38,7 +38,7 @@
   .fa-caret-down {
     display: none;
   }
-  .dropdown-menu {
+  /* .dropdown-menu {
     background: grey;
     width: 100%;
     position: relative;
@@ -59,6 +59,40 @@
     text-align: center;
     justify-content: center;
     align-items: center;
+  } */
+
+  .dropdown-menu {
+    width: 100%;
+    position: relative;
+    top: 0;
+    list-style: none;
+    text-align: center;
+    height: auto;
+  }
+  .dropdown-link {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 60px;
+    width: 100%;
+    font-size: 0.9rem;
+    font-style: italic;
+    padding: 16px;
+  }
+  .dropdown-menu li {
+    cursor: pointer;
+    text-align: center;
+    padding: 2rem;
+    width: 100%;
+    display: table;
+    all: inherit;
+  }
+
+  .dropdown-menu li:hover {
+    text-decoration: none;
+    background-color: yellow;
+    color: #275c06 !important;
+    border-radius: 0;
   }
   
 }
